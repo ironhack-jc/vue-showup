@@ -4,10 +4,7 @@
     <h2>{{ headerUppercase }}</h2>
 
     <div v-if="apiError">
-    
-    
-    
-    
+      Mensaje de error
     </div>
 
     <div v-for="(item, index) in list" :key="index">
